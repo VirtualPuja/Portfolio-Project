@@ -1,0 +1,105 @@
+:root {
+    --header-height: 3rem;
+
+    /* Colors*/
+        --header-color: #0911b3; 
+        --body-text: #0C0404;
+        --container-color: #fff;
+        --scroll-bar-color: #128FCB;
+        --footer-color: #A5DEF2;  
+        --icons-color: #0487f1;
+   
+
+    /*Font*/
+    --heading-font: 'Poppins', sans-serif;
+    --title-font: 'Amaranth', sans-serif;
+    --body-font: 'Lato', sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 42px; /*40px*/
+    --large-font-size: 36px;
+    --medium-font-size: 20px;
+    --small-font-size: 16px;
+    --xsmall-font-size: 12px;
+}
+
+
+/*========== Variables Dark theme ==========*/
+
+
+/*========== Button Dark/Light ==========*/
+
+
+/*==================== BASE ====================*/
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--container-color) ;
+
+}
+
+.port-pic{
+ cursor: no-drop;  
+}
+
+.title {
+  font-size: 80px !important;
+  font-family: var(--title-font) !important;
+  cursor: text;
+ 
+}
+
+.jobtitle {
+  font-family: var(--title-font) !important;
+  cursor: text;
+  color: var(--body-text);
+}
+
+h1 {
+  color: var(--header-color) !important; 
+  font-size: var(--large-font-size) !important;
+  font-family: var(--title-font) !important;
+}
+
+.about_me{
+  
+}
+
+/*footer style*/
+
+footer {
+  background-color: var(--footer-color);
+  box-shadow: 10px 10px 20px 10px var(--footer-color);
+}
+
+.footer_socials {
+  font-size: 22px;
+  color: var(--header-color); 
+  display: inline-block !important;  
+}
+
+.footer_socials:hover {
+  color: var(--icons-color);
+}
+
+.footer_copy{
+  text-align: right;
+}
+
+.footer_link {
+  font-size: var(--small-font-size);
+  text-decoration: none !important;
+  color: black;
+}
+
+.footer_link:hover{
+  color: var(--icons-color);
+}
+
+
