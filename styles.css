@@ -51,6 +51,14 @@ a {
 }
 
 
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-brand:hover {
+  color: var(--icons-color) !important;
+}
 .port-pic{
  cursor: no-drop;  
 }
@@ -81,14 +89,22 @@ h1 {
 
 /*footer style*/
 
+.footer_title {
+  color: white !important;
+}
+
+.footer_subtitle {
+  color: white !important;
+}
+
 footer {
-  background-color: var(--footer-color);
-  box-shadow: 10px 10px 20px 10px var(--footer-color);
+  background-color: #222;
+  box-shadow: 10px 10px 20px 10px #222;
 }
 
 .footer_socials {
   font-size: 22px;
-  color: var(--header-color); 
+  color: white; 
   display: inline-block !important;  
 }
 
@@ -98,12 +114,13 @@ footer {
 
 .footer_copy{
   text-align: right;
+  color: white;
 }
 
 .footer_link {
   font-size: var(--small-font-size);
   text-decoration: none !important;
-  color: black;
+  color: white;
 }
 
 .footer_link:hover{
