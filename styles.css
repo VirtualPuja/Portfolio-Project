@@ -8,6 +8,8 @@
         --scroll-bar-color: #128FCB;
         --footer-color: #A5DEF2;  
         --icons-color: #0487f1;
+        --port-hover: #004792;
+
    
 
     /*Font*/
@@ -44,6 +46,11 @@ body {
 
 }
 
+a {
+  text-decoration: none !important;
+}
+
+
 .port-pic{
  cursor: no-drop;  
 }
@@ -51,15 +58,16 @@ body {
 .title {
   font-size: 80px !important;
   font-family: var(--title-font) !important;
-  cursor: text;
- 
+  cursor: text; 
 }
 
 .jobtitle {
   font-family: var(--title-font) !important;
   cursor: text;
-  color: var(--body-text);
+  color: var(--body-text); 
 }
+
+
 
 h1 {
   color: var(--header-color) !important; 
@@ -67,9 +75,9 @@ h1 {
   font-family: var(--title-font) !important;
 }
 
-.about_me{
-  
-}
+/*Projects*/
+
+
 
 /*footer style*/
 
@@ -101,5 +109,3 @@ footer {
 .footer_link:hover{
   color: var(--icons-color);
 }
-
-
