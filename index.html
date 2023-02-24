@@ -19,7 +19,7 @@
         <title>Puja Moore Portfolio</title>
     </head>
 <body>
-    <nav class = "navbar navbar-inverse fixed-top">
+    <nav class = "navbar fixed-top navbar-inverse">
         <div class="container-fluid">                  
             <div class = "navbar-header">  
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -32,10 +32,10 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a></li>   
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#projects_title">Projects</a></li>
+                <li><a href="#resume_link">Resume</a></li> 
+                <li><a href="mailto:virtualpuja22@gmail.com">Contact</a></li>
                 <li><a href="#"><i class="uil uil-moon dark"></i>
             </ul>                
         </div>
@@ -51,9 +51,11 @@
                 <h3 class="text-center jobtitle">Frontend Developer</h3>  
                 <br>    
                 <div class="text-center">
-                <button class="btn btn-default">Contact Me
+                <a href="mailto:virtualpuja22@gmail.com">
+                    <button class="btn btn-default">Contact Me
                     <i class="uil uil-message"></i>
-                </button>
+                    </button>
+                </a>
                 </div>
               </div>
               <div class="col-md-4">
@@ -66,85 +68,62 @@
             <div class="row">
                 <div class="col-md-4"></div>
             <div class="col-md-4">
-                <h1 class="text-center section_title">About Me</h1>
+                <h1 class="text-center section_title" id="about_me">About Me</h1>
                 <p class="about_par">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button class="btn btn-default">Download Resume
+                <a href="Puja Resume.pdf" download="resume">
+                    <button class="btn btn-default" id="resume_link">Download Resume
                     <i class="uil uil-download-alt"></i>
-                </button>
+                    </button>
+                </a>
             </div>
             <div class="col-md-4"></div>
             </div>
         </div>  
         <!--projects-->
         <div class="container-fluid projects">
-            <h1 class="text-center section_title">Projects</h1>
+            <h1 class="text-center section_title" id="projects_title">Projects</h1>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="port_project">
-                        <div class="image">
-                            <img src="Project-Image-One.jpg" class="img-responsive img-rounded" alt="">
-                        </div>
-                        <div class="hover">
-                            <h3>Lorem Ipsum</h3>
-                            <div class="icons">
-                                <a href="https://github.com/VirtualPuja" target="_blank" class="icon">
-                                    <i class="uil uil-github-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="port_project">
-                        <div class="image">
-                            <img src="Project-Image-Two.jpg" class="img-responsive img-rounded" alt="">
-                        </div>
-                        <div class="hover">
-                            <h3>Lorem Ipsum</h3>
-                            <div class="icons">
-                                <a href="https://github.com/VirtualPuja" target="_blank" class="icon">
-                                    <i class="uil uil-github-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <p class="codepen port_projects " data-height="300" data-default-tab="html,result" data-slug-hash="abKBrBN" data-user="virtualpuja" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/virtualpuja/pen/abKBrBN">
+                QR Code</a> by VirtualPuja (<a href="https://codepen.io/virtualpuja">@virtualpuja</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>         
+            <div class="col-md-6">
+                <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNKpQNo" data-user="virtualpuja" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/virtualpuja/pen/WNKpQNo">
+                    Calculator JS</a> by VirtualPuja (<a href="https://codepen.io/virtualpuja">@virtualpuja</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                  </p>
+                  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
             </div>
+            </div>
+            <br>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="port_project">
-                        <div class="image">
-                            <img src="Project-Image-Three.jpg" class="img-responsive img-rounded" alt="">
-                        </div>
-                        <div class="hover">
-                            <h3>Lorem Ipsum</h3>
-                            <div class="icons">
-                                <a href="https://github.com/VirtualPuja" target="_blank" class="icon">
-                                    <i class="uil uil-github-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="dyKGwYz" data-user="virtualpuja" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/virtualpuja/pen/dyKGwYz">
+                        CSS Cards</a> by VirtualPuja (<a href="https://codepen.io/virtualpuja">@virtualpuja</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                 </div>
+              
                 <div class="col-md-6">
-                    <div class="port_project">
-                        <div class="image">
-                            <img src="Project-Image-Four.jpg" class="img-responsive img-rounded" alt="">
-                        </div>
-                        <div class="hover">
-                            <h3>Lorem Ipsum</h3>
-                            <div class="icons">
-                                <a href="https://github.com/VirtualPuja" target="_blank" class="icon">
-                                    <i class="uil uil-github-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWBoayJ" data-user="virtualpuja" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/virtualpuja/pen/MWBoayJ">
+                        LinkedIn Static Profile </a> by VirtualPuja (<a href="https://codepen.io/virtualpuja">@virtualpuja</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
                 </div>
             </div>
         </div>
+        <br>
     </main>
     <!--footer-->
     <footer class="footer">
@@ -165,16 +144,16 @@
                     <ul class="list-unstyled">                      
                         <br>
                         <li>
-                            <a href="#Projects" class="footer_link">Projects</a>
+                            <a href="#projects_title" class="footer_link">Projects</a>
                         </li>
                         <li>
-                            <a href="#Contact" class="footer_link">Contact</a>
+                            <a href="mailto:virtualpuja22@gmail.com" class="footer_link">Contact</a>
                         </li>
                         <li>
-                            <a href="#AboutMe" class="footer_link">About Me</a>
+                            <a href="#about_me" class="footer_link">About Me</a>
                         </li>
                         <li>
-                            <a href="#Resume" class="footer_link">Resume</a>
+                            <a href="#resume_link" class="footer_link">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -193,5 +172,4 @@
     </footer>   
 </body>
 </html>
-
 <!--Use BootStrap-->
